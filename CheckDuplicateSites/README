@@ -1,0 +1,21 @@
+This perl script identifies if any of the sites name present in the second file exist in the first file.
+
+This pers script requires two files.
+First file name is 'keywords_out.txt'. 
+The content of this file is sites name followed by a tab and then followed by some word. (This was my use case)
+Second file is 'input.txt'.
+The content of this file is simply the name of sites, each on new line.
+
+This script outputs using Dumper.
+The first output is Dump of which sites are present in the second file is also present in the first file.
+And second output dump is of which sites from the second file are not present in the first file.
+
+Later, I am also printing the count respectively.
+
+Author : Rajesh Kumar 
+Email : rajeshkrcse@gmail.com
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Rajesh Kumar
+
