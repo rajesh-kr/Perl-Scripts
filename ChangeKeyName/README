@@ -1,0 +1,5 @@
+This perl script replaces the key name of the Hash.
+
+It takes two hash reference as input.
+First hash is the hash whose key has to be changed.
+Second hash is the hash which used for mapping the name.
